@@ -1,0 +1,41 @@
+---
+title: 'Shiny App: Prediction Ozone Quality based on Temperture and Wind Speed'
+author: "Aliakbar Safilian"
+date: "January 3, 2019"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+This project (a Shiny app) was submitted as the final assingment for the Coursera course Developing Data Products.
+
+
+- The application can be accessed via: https://asafilian.shinyapps.io/OzonePredict_TempWind/ 
+
+- The source codes (**ui.R** and **server.R**) can be found in the following GitHub repository: https://github.com/asafilian/Shiny_Airquality_Project 
+
+ 
+## The Dataset
+The **airquality** dataset from the **datasets** package was used: 
+```{r, comment="", echo=TRUE}
+library(datasets)
+data("airquality")
+airquality <- airquality[complete.cases(airquality),]
+str(airquality)
+```
+
+## The Application
+- <font size="4">Select a prediction model from the radio button. </font> 
+- <font size="4">Choose your desired value from the corresponding slider.</font>  
+- <font size="4">The app will show an appropriate plot with the corresponding linear model.</font>  
+- <font size="4">Moreover, it will predict the Ozone quality based for your choice.</font> 
+![](shiny-app.png)
+
+## THANK YOU 
+
+PLEASE LEAVE ME YOUR COMMENTS at <a.a.safilian@gmail.com>  

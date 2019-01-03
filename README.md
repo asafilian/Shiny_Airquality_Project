@@ -12,5 +12,7 @@ https://asafilian.shinyapps.io/OzonePredict_TempWind/
 One could find the corresponding **ui.R** and **server.R** files in this repository. 
 
 The Presentation can found via the following link:
+http://rpubs.com/asaf/Shiny_Airquality_Slides
 
-You could also find the presentation source in this repository. 
+You could also find the presentation source in this repository: 
+**c9_Asssignment3.Rmd**
