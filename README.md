@@ -1,4 +1,4 @@
-# Shiny_Airquality_Project
+# Shiny: Ozone Quality based on Temperature and Wind Speed
 This project (a Shiny app) was submitted as the final assingment for the Coursera course **Developing Data Products** offered by John Hopkins University.
 
 The project had two parts:
